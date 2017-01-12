@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5FF896F81E27989E0054BBF2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FF896F71E27989E0054BBF2 /* AppDelegate.m */; };
+		5FF896FB1E27989E0054BBF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FF896FA1E27989E0054BBF2 /* main.m */; };
+		5FF896FD1E27989E0054BBF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FF896FC1E27989E0054BBF2 /* Assets.xcassets */; };
+		5FF897001E27989E0054BBF2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FF896FE1E27989E0054BBF2 /* MainMenu.xib */; };
+		5FF8970B1E27989E0054BBF2 /* MacAppPracticeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FF8970A1E27989E0054BBF2 /* MacAppPracticeTests.m */; };
+		5FF897161E27989E0054BBF2 /* MacAppPracticeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FF897151E27989E0054BBF2 /* MacAppPracticeUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5FF897071E27989E0054BBF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FF896EB1E27989E0054BBF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FF896F21E27989E0054BBF2;
+			remoteInfo = MacAppPractice;
+		};
+		5FF897121E27989E0054BBF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FF896EB1E27989E0054BBF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FF896F21E27989E0054BBF2;
+			remoteInfo = MacAppPractice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5FF896F31E27989E0054BBF2 /* MacAppPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacAppPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FF896F61E27989E0054BBF2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5FF896F71E27989E0054BBF2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5FF896FA1E27989E0054BBF2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5FF896FC1E27989E0054BBF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5FF896FF1E27989E0054BBF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5FF897011E27989E0054BBF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FF897061E27989E0054BBF2 /* MacAppPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacAppPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FF8970A1E27989E0054BBF2 /* MacAppPracticeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacAppPracticeTests.m; sourceTree = "<group>"; };
+		5FF8970C1E27989E0054BBF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FF897111E27989E0054BBF2 /* MacAppPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacAppPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FF897151E27989E0054BBF2 /* MacAppPracticeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacAppPracticeUITests.m; sourceTree = "<group>"; };
+		5FF897171E27989E0054BBF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FF896F01E27989E0054BBF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FF897031E27989E0054BBF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FF8970E1E27989E0054BBF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FF896EA1E27989E0054BBF2 = {
+			isa = PBXGroup;
+			children = (
+				5FF896F51E27989E0054BBF2 /* MacAppPractice */,
+				5FF897091E27989E0054BBF2 /* MacAppPracticeTests */,
+				5FF897141E27989E0054BBF2 /* MacAppPracticeUITests */,
+				5FF896F41E27989E0054BBF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5FF896F41E27989E0054BBF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FF896F31E27989E0054BBF2 /* MacAppPractice.app */,
+				5FF897061E27989E0054BBF2 /* MacAppPracticeTests.xctest */,
+				5FF897111E27989E0054BBF2 /* MacAppPracticeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FF896F51E27989E0054BBF2 /* MacAppPractice */ = {
+			isa = PBXGroup;
+			children = (
+				5FF896F61E27989E0054BBF2 /* AppDelegate.h */,
+				5FF896F71E27989E0054BBF2 /* AppDelegate.m */,
+				5FF896FC1E27989E0054BBF2 /* Assets.xcassets */,
+				5FF896FE1E27989E0054BBF2 /* MainMenu.xib */,
+				5FF897011E27989E0054BBF2 /* Info.plist */,
+				5FF896F91E27989E0054BBF2 /* Supporting Files */,
+			);
+			path = MacAppPractice;
+			sourceTree = "<group>";
+		};
+		5FF896F91E27989E0054BBF2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5FF896FA1E27989E0054BBF2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5FF897091E27989E0054BBF2 /* MacAppPracticeTests */ = {
+			isa = PBXGroup;
+			children = (
+				5FF8970A1E27989E0054BBF2 /* MacAppPracticeTests.m */,
+				5FF8970C1E27989E0054BBF2 /* Info.plist */,
+			);
+			path = MacAppPracticeTests;
+			sourceTree = "<group>";
+		};
+		5FF897141E27989E0054BBF2 /* MacAppPracticeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5FF897151E27989E0054BBF2 /* MacAppPracticeUITests.m */,
+				5FF897171E27989E0054BBF2 /* Info.plist */,
+			);
+			path = MacAppPracticeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FF896F21E27989E0054BBF2 /* MacAppPractice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FF8971A1E27989E0054BBF2 /* Build configuration list for PBXNativeTarget "MacAppPractice" */;
+			buildPhases = (
+				5FF896EF1E27989E0054BBF2 /* Sources */,
+				5FF896F01E27989E0054BBF2 /* Frameworks */,
+				5FF896F11E27989E0054BBF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacAppPractice;
+			productName = MacAppPractice;
+			productReference = 5FF896F31E27989E0054BBF2 /* MacAppPractice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5FF897051E27989E0054BBF2 /* MacAppPracticeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FF8971D1E27989E0054BBF2 /* Build configuration list for PBXNativeTarget "MacAppPracticeTests" */;
+			buildPhases = (
+				5FF897021E27989E0054BBF2 /* Sources */,
+				5FF897031E27989E0054BBF2 /* Frameworks */,
+				5FF897041E27989E0054BBF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FF897081E27989E0054BBF2 /* PBXTargetDependency */,
+			);
+			name = MacAppPracticeTests;
+			productName = MacAppPracticeTests;
+			productReference = 5FF897061E27989E0054BBF2 /* MacAppPracticeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5FF897101E27989E0054BBF2 /* MacAppPracticeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FF897201E27989E0054BBF2 /* Build configuration list for PBXNativeTarget "MacAppPracticeUITests" */;
+			buildPhases = (
+				5FF8970D1E27989E0054BBF2 /* Sources */,
+				5FF8970E1E27989E0054BBF2 /* Frameworks */,
+				5FF8970F1E27989E0054BBF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FF897131E27989E0054BBF2 /* PBXTargetDependency */,
+			);
+			name = MacAppPracticeUITests;
+			productName = MacAppPracticeUITests;
+			productReference = 5FF897111E27989E0054BBF2 /* MacAppPracticeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FF896EB1E27989E0054BBF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = liaoting;
+				TargetAttributes = {
+					5FF896F21E27989E0054BBF2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4DS63DJUQ6;
+						ProvisioningStyle = Automatic;
+					};
+					5FF897051E27989E0054BBF2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4DS63DJUQ6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5FF896F21E27989E0054BBF2;
+					};
+					5FF897101E27989E0054BBF2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4DS63DJUQ6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5FF896F21E27989E0054BBF2;
+					};
+				};
+			};
+			buildConfigurationList = 5FF896EE1E27989E0054BBF2 /* Build configuration list for PBXProject "MacAppPractice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FF896EA1E27989E0054BBF2;
+			productRefGroup = 5FF896F41E27989E0054BBF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FF896F21E27989E0054BBF2 /* MacAppPractice */,
+				5FF897051E27989E0054BBF2 /* MacAppPracticeTests */,
+				5FF897101E27989E0054BBF2 /* MacAppPracticeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FF896F11E27989E0054BBF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FF896FD1E27989E0054BBF2 /* Assets.xcassets in Resources */,
+				5FF897001E27989E0054BBF2 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FF897041E27989E0054BBF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FF8970F1E27989E0054BBF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FF896EF1E27989E0054BBF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FF896FB1E27989E0054BBF2 /* main.m in Sources */,
+				5FF896F81E27989E0054BBF2 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FF897021E27989E0054BBF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FF8970B1E27989E0054BBF2 /* MacAppPracticeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FF8970D1E27989E0054BBF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FF897161E27989E0054BBF2 /* MacAppPracticeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FF897081E27989E0054BBF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FF896F21E27989E0054BBF2 /* MacAppPractice */;
+			targetProxy = 5FF897071E27989E0054BBF2 /* PBXContainerItemProxy */;
+		};
+		5FF897131E27989E0054BBF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FF896F21E27989E0054BBF2 /* MacAppPractice */;
+			targetProxy = 5FF897121E27989E0054BBF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5FF896FE1E27989E0054BBF2 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FF896FF1E27989E0054BBF2 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FF897181E27989E0054BBF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5FF897191E27989E0054BBF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5FF8971B1E27989E0054BBF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4DS63DJUQ6;
+				INFOPLIST_FILE = MacAppPractice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liaoting.MacAppPractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5FF8971C1E27989E0054BBF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4DS63DJUQ6;
+				INFOPLIST_FILE = MacAppPractice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liaoting.MacAppPractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5FF8971E1E27989E0054BBF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4DS63DJUQ6;
+				INFOPLIST_FILE = MacAppPracticeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liaoting.MacAppPracticeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacAppPractice.app/Contents/MacOS/MacAppPractice";
+			};
+			name = Debug;
+		};
+		5FF8971F1E27989E0054BBF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4DS63DJUQ6;
+				INFOPLIST_FILE = MacAppPracticeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liaoting.MacAppPracticeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacAppPractice.app/Contents/MacOS/MacAppPractice";
+			};
+			name = Release;
+		};
+		5FF897211E27989E0054BBF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4DS63DJUQ6;
+				INFOPLIST_FILE = MacAppPracticeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liaoting.MacAppPracticeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MacAppPractice;
+			};
+			name = Debug;
+		};
+		5FF897221E27989E0054BBF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4DS63DJUQ6;
+				INFOPLIST_FILE = MacAppPracticeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liaoting.MacAppPracticeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MacAppPractice;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FF896EE1E27989E0054BBF2 /* Build configuration list for PBXProject "MacAppPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FF897181E27989E0054BBF2 /* Debug */,
+				5FF897191E27989E0054BBF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FF8971A1E27989E0054BBF2 /* Build configuration list for PBXNativeTarget "MacAppPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FF8971B1E27989E0054BBF2 /* Debug */,
+				5FF8971C1E27989E0054BBF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5FF8971D1E27989E0054BBF2 /* Build configuration list for PBXNativeTarget "MacAppPracticeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FF8971E1E27989E0054BBF2 /* Debug */,
+				5FF8971F1E27989E0054BBF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5FF897201E27989E0054BBF2 /* Build configuration list for PBXNativeTarget "MacAppPracticeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FF897211E27989E0054BBF2 /* Debug */,
+				5FF897221E27989E0054BBF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FF896EB1E27989E0054BBF2 /* Project object */;
+}

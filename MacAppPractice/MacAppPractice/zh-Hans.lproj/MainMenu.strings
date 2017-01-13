@@ -81,10 +81,10 @@
 "Dv1-io-Yv7.title" = "Spelling and Grammar";
 
 /* Class = "NSMenu"; title = "Help"; ObjectID = "F2S-fz-NVQ"; */
-"F2S-fz-NVQ.title" = "Help";
+"F2S-fz-NVQ.title" = "帮助";
 
 /* Class = "NSMenuItem"; title = "MacAppPractice Help"; ObjectID = "FKE-Sm-Kum"; */
-"FKE-Sm-Kum.title" = "MacAppPractice Help";
+"FKE-Sm-Kum.title" = "MacAppPractice帮助";
 
 /* Class = "NSMenuItem"; title = "Text"; ObjectID = "Fal-I4-PZk"; */
 "Fal-I4-PZk.title" = "Text";
@@ -94,9 +94,6 @@
 
 /* Class = "NSMenuItem"; title = "Bold"; ObjectID = "GB9-OM-e27"; */
 "GB9-OM-e27.title" = "Bold";
-
-/* Class = "NSMenu"; title = "Format"; ObjectID = "GEO-Iw-cKr"; */
-"GEO-Iw-cKr.title" = "Format";
 
 /* Class = "NSMenuItem"; title = "Use Default"; ObjectID = "GUa-eO-cwY"; */
 "GUa-eO-cwY.title" = "Use Default";
@@ -108,7 +105,7 @@
 "H1b-Si-o9J.title" = "Writing Direction";
 
 /* Class = "NSMenuItem"; title = "View"; ObjectID = "H8h-7b-M4v"; */
-"H8h-7b-M4v.title" = "View";
+"H8h-7b-M4v.title" = "显示";
 
 /* Class = "NSMenuItem"; title = "Text Replacement"; ObjectID = "HFQ-gK-NFA"; */
 "HFQ-gK-NFA.title" = "Text Replacement";
@@ -117,7 +114,7 @@
 "HFo-cy-zxI.title" = "Show Spelling and Grammar";
 
 /* Class = "NSMenu"; title = "View"; ObjectID = "HyV-fh-RgO"; */
-"HyV-fh-RgO.title" = "View";
+"HyV-fh-RgO.title" = "显示";
 
 /* Class = "NSMenuItem"; title = "Subscript"; ObjectID = "I0S-gh-46l"; */
 "I0S-gh-46l.title" = "Subscript";
@@ -195,7 +192,7 @@
 "S0p-oC-mLd.title" = "Jump to Selection";
 
 /* Class = "NSMenu"; title = "Window"; ObjectID = "Td7-aD-5lo"; */
-"Td7-aD-5lo.title" = "Window";
+"Td7-aD-5lo.title" = "窗口";
 
 /* Class = "NSMenuItem"; title = "Capitalize"; ObjectID = "UEZ-Bs-lqG"; */
 "UEZ-Bs-lqG.title" = "Capitalize";
@@ -243,7 +240,7 @@
 "aTl-1u-JFS.title" = "Print…";
 
 /* Class = "NSMenuItem"; title = "Window"; ObjectID = "aUF-d1-5bR"; */
-"aUF-d1-5bR.title" = "Window";
+"aUF-d1-5bR.title" = "窗口";
 
 /* Class = "NSMenu"; title = "Font"; ObjectID = "aXa-aM-Jaq"; */
 "aXa-aM-Jaq.title" = "Font";
@@ -307,9 +304,6 @@
 
 /* Class = "NSMenuItem"; title = "\tRight to Left"; ObjectID = "jFq-tB-4Kx"; */
 "jFq-tB-4Kx.title" = "\tRight to Left";
-
-/* Class = "NSMenuItem"; title = "Format"; ObjectID = "jxT-CU-nIS"; */
-"jxT-CU-nIS.title" = "Format";
 
 /* Class = "NSMenuItem"; title = "Show Sidebar"; ObjectID = "kIP-vf-haE"; */
 "kIP-vf-haE.title" = "Show Sidebar";

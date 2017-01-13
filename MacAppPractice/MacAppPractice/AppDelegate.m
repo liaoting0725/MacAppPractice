@@ -7,16 +7,20 @@
 //
 
 #import "AppDelegate.h"
+#import "LTMasterViewController.h"
 
 @interface AppDelegate ()
 
 @property (weak) IBOutlet NSWindow *window;
+@property (nonatomic, strong) IBOutlet LTMasterViewController *masterViewController;
 @end
 
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    // Insert code here to initialize your application
+    self.masterViewController = [[LTMasterViewController alloc] init];
+    [self.window.contentView addSubview:self.masterViewController.view];
+    self.masterViewController.view.frame = self.window.contentView.bounds;
 }
 
 
